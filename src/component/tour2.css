@@ -1,0 +1,18 @@
+.back{
+    background-image: url(imagex);
+    background-size: 90vw 90vh;
+}
+.corn{
+    animation-name: cornx;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes cornx {
+    0%{
+        right: -500px;
+    }
+    100%{
+        right: 0PX;
+    }
+}

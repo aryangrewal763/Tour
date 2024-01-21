@@ -1,0 +1,19 @@
+.maini{
+    background-image: url("./assets/joshua-earle--87JyMb9ZfU-unsplash.jpg") ;
+    background-repeat: no-repeat;
+    background-size:100vw 100vh;
+    background-attachment: fixed;
+    
+}
+.animtest{
+    animation-name: textanimation;
+    animation-duration: 5s;
+}
+@keyframes textanimation {
+    0%{
+        scale: 0;
+    }
+    100%{
+        scale: 1;
+    }
+}
